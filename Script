@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+
+local Window = Library.CreateLib("1% Win Obby | Txxicu Scripts", "RJTheme3")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("END 10,000$", "ButtonInfo", function()
+    print("Clicked")
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-74.0912094, 51.7947769, -1069.06592, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+wait(1)
+for _, v in pairs(workspace:GetDescendants()) do
+if v:IsA("ProximityPrompt") then
+v.HoldDuration = 0
+task.wait()
+end
+end
+end)
+
+Section:NewButton("TOP SECRET", "ButtonInfo", function()
+    print("Clicked")
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.95607, -11.1499662, 34.2233543, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+wait(1)
+for _, v in pairs(workspace:GetDescendants()) do
+if v:IsA("ProximityPrompt") then
+v.HoldDuration = 0
+task.wait()
+end
+end
+end)
